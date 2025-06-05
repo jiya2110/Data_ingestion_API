@@ -1,0 +1,23 @@
+{
+  "name": "data-ingestion-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0",
+    "uuid": "^9.0.1"
+  },
+  "description": "## Run Locally",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
